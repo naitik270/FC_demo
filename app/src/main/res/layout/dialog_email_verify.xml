@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_description_main"
+        android:text="Verification link will be sent to"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_below="@id/tv_description_main"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="Verification link will be sent to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_dialog_email"
+        android:layout_below="@id/tv_description"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="Patelhardik94271@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_save"
+        android:layout_below="@id/tv_dialog_email"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_button_effect"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Send Verification Link"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#814a6d</color>
+    <color name="colorPrimaryDark">#5e3750</color>
+    <color name="colorAccent">#5e3750</color>
+
+    <color name="txtColor">#b4b4b4</color>
+    <color name="txt_light_Color">#E6E3E3</color>
+    <color name="newtxtColor">#878787</color>
+    <color name="btnColor">#555555</color>
+    <color name="blue">#00a8e1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_transe">#03FFFFFF</color>
+    <color name="bottom_navigation">#FFFFFF</color>
+
+    <color name="toolColor">#815772</color>
+
+
+
+    <color name="viewDialogBackColor">#303030</color>
+    <color name="viewDialogTxt">#f2696d</color>
+
+    <color name="cancel">#ffcc0000</color>
+    <color name="green">#255A19</color>
+    <color name="light_green">#CFEBDA</color>
+    <color name="black">#000000</color>
+
+    <color name="dissable_forground">#F4F4F4</color>
+    <color name="dissable_thumb">#bbbbbb</color>
+    <color name="enable_thumb">#f2696d</color>
+
+    <color name="Txt_list_Colour">#585858</color>
+    <color name="product_details">#56585858</color>
+
+    <color name="title">#222222</color>
+    <color name="textcolor">#808080</color>
+    <color name="pressed_bg">#64b7b7b7</color>
+
+
+    <color name="link_clr">#007bff</color>
+    <color name="ckb_invoice">#0042A0</color>
+    <item name="clr_orange" type="color">#FFFF8800</item>
+    <color name="hot_red">#C02828</color>
+
+    <color name="Pending">#40932d</color>
+    <color name="Completed">#037EA6</color>
+    <color name="Preparing">#B47A00</color>
+    <color name="Cancelled">#CC0000</color>
+    <color name="Delivered">#9933CC</color>
+    <color name="confirmed">#653221</color>
+    <color name="Ready">#007bff</color>
+</resources>

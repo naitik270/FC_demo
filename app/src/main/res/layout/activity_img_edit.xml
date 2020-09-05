@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:local="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        local:title="Browse image"
+        local:titleTextColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibRotateLeft"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="45dp"
+            android:tint="@color/black"
+            android:src="@drawable/ic_rotate_left" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="6"
+            android:onClick="onLoadImageClick"
+            android:background="@color/toolColor"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:text="@string/crp_image_select" />
+
+        <ImageButton
+            android:id="@+id/ibRotateRight"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:tint="@color/black"
+            android:layout_weight="2"
+            android:src="@drawable/ic_rotate_right" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@drawable/img_border"
+        android:orientation="horizontal">
+
+
+        <com.theartofdev.edmodo.cropper.CropImageView
+            android:id="@+id/CropImageView"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+          />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:onClick="onCropImageClick"
+            android:background="@color/toolColor"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:text="@string/crp_image" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@color/toolColor"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:text="@string/crp_save_image" />
+    </LinearLayout>
+</LinearLayout>

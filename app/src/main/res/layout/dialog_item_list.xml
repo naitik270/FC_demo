@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:src="@drawable/ic_truck"
+                android:tint="@color/white"
+                android:layout_marginEnd="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tracking"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_order_date"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_circle"
+                    android:tint="@color/txt_light_Color"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/txt_order_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="ORDER PLACED: "
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/vw_order"
+                android:layout_width="2dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="34dp"
+                android:background="@color/txt_light_Color"
+                android:visibility="visible" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_cancelled"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_circle"
+                    android:tint="@color/txt_light_Color"
+                    android:visibility="visible" />
+
+
+                <TextView
+                    android:id="@+id/txt_cancelled_datetime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="CANCELLED DATE/TIME: "
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/vw_cancelled"
+                android:layout_width="2dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="34dp"
+                android:background="@color/txt_light_Color"
+                android:visibility="visible" />
+
+
+            <TextView
+                android:id="@+id/txt_cancelled_reason"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="@color/white"
+                android:gravity="center"
+android:visibility="gone"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_ready"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_circle"
+                    android:tint="@color/txt_light_Color"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/txt_ready_datetime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="READY DATE/TIME: "
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/vw_ready"
+                android:layout_width="2dp"
+                android:visibility="gone"
+                android:layout_height="20dp"
+                android:layout_marginStart="34dp"
+                android:background="@color/txt_light_Color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="@color/white"
+                android:gravity="center"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_confirmed"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_circle"
+                    android:tint="@color/txt_light_Color"
+                    android:visibility="visible" />
+
+
+                <TextView
+                    android:id="@+id/txt_confirmed_datetime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="CONFIRMED DATE/TIME: "
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/vw_confirmed"
+                android:layout_width="2dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="34dp"
+                android:background="@color/txt_light_Color"
+                android:visibility="visible" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_complete"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_circle"
+                    android:tint="@color/txt_light_Color"
+                    android:visibility="visible" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_complete_datetime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="COMPLETE DATE/TIME: "
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/txt_note"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="sans-serif-light"
+                        android:textColor="@color/green"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/vw_preparing"
+                android:layout_width="2dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="34dp"
+                android:background="@color/txt_light_Color"
+                android:visibility="visible" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="@color/white"
+                android:gravity="center"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_preparing"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_circle"
+                    android:tint="@color/txt_light_Color"
+                    android:visibility="visible" />
+
+
+                <TextView
+                    android:id="@+id/txt_preparing_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="PREPARING DATE/TIME: "
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/vw_delivery"
+                android:layout_width="2dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="34dp"
+                android:background="@color/txt_light_Color"
+                android:visibility="visible" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_delivery"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_circle"
+                    android:tint="@color/txt_light_Color"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/txt_delivery_datetime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="PICK-UP DATE/TIME: "
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txt_name_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/txt_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

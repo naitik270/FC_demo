@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">fTouch</string>
+
+    <string name="text_home">ઘર</string>
+    <string name="text_order">ઓર્ડર</string>
+    <string name="text_appointment">નિમણૂક</string>
+    <string name="text_cart">કાર્ટ</string>
+    <string name="text_settings">સેટિંગ</string>
+
+
+    <string name="logout_message">શું તમે ખરેખર બંધ કરવા માંગો છો?</string>
+
+    <!--    Complain Strings    -->
+    <string name="cmp_add_remark">ટિપ્પણી ઉમેરો</string>
+    <string name="cmp_select_image">છબી પસંદ કરો</string>
+    <string name="cmp_browse">બ્રાઉઝ કરો</string>
+    <string name="cmp_complain">ફરિયાદ મોકલો</string>
+
+
+    <!--    Settings Strings    -->
+    <string name="setting_profile">પ્રોફાઇલ</string>
+    <string name="setting_profile_description">મેનેજ પ્રોફાઇલ, નામ, ઇમેઇલ વગેરે</string>
+    <string name="setting_rate_app">રેટ એપ્લિકેશન</string>
+    <string name="setting_rate_app_description">અમને રેટ કરો</string>
+    <string name="setting_share_app">એપ્લિકેશન શેર કરો</string>
+    <string name="setting_share_app_description">અન્ય પર એપ્લિકેશન શેર કરો</string>
+    <string name="setting_complain">ક્વેરી / ફરિયાદ સબમિટ કરો</string>
+    <string name="setting_complain_description">અમને તમારા સૂચનો, ક્વેરી, ઇશ્યૂ લખો</string>
+    <string name="setting_language">ભાષા</string>
+    <string name="setting_language_description">English / ગુજરાતી વગેરે</string>
+    <string name="setting_logout">બંધ</string>
+    <string name="setting_logout_description">એપ્લિકેશન બંધ</string>
+    <string name="setting_addresses">સરનામાંઓ</string>
+    <string name="setting_addresses_description">ડિલિવરી સરનામાંઓ મેનેજ કરો</string>
+    <string name="setting_Login">પ્રવેશ કરો</string>
+    <string name="setting_Login_description">પ્રોફાઇલ, ઓર્ડર્સ, એપોઇન્ટમેન્ટ્સ અને વધુ મેનેજ કરો</string>
+
+
+
+    <string name="crp_image_select">છબી પસંદ કરો</string>
+    <string name="crp_image">છબી કાપવા</string>
+    <string name="crp_save_image">છબી સાચવો</string>
+    <string name="mobile_no">મોબાઈલ નમ્બર.</string>
+
+    <string name="btn_continue">ચાલુ રાખો</string>
+    <string name="btn_skip">અવગણો</string>
+    <string name="btn_verify">ચકાસો</string>
+    <string name="btn_resend">ફરીથી મોકલો</string>
+    <string name="save">સાચવો</string>
+
+
+    <string name="addresses">સરનામાંઓ</string>
+    <string name="appointment">નિમણૂક</string>
+    <string name="mobile_number">મોબાઇલ નંબર</string>
+    <string name="full_name">પૂરું નામ</string>
+    <string name="address_1">સરનામું 1</string>
+    <string name="address_2">સરનામું 2</string>
+    <string name="land_mark">જમીન માર્ક</string>
+    <string name="state">રાજ્ય</string>
+    <string name="city">શહેર</string>
+    <string name="pin_code">પીન કોડ</string>
+    <string name="person_name">વ્યક્તિનું નામ</string>
+    <string name="mobile">મોબાઇલ</string>
+    <string name="email">ઇમેઇલ</string>
+    <string name="verified">ચકાસણી</string>
+    <string name="verify">ચકાસો</string>
+    <string name="select_country">દેશ પસંદ કરો</string>
+    <string name="select_state">રાજ્ય પસંદ કરો</string>
+    <string name="select_city">શહેર પસંદ કરો</string>
+    <string name="cb_default">આને તમારું ડિફોલ્ટ સરનામું બનાવો</string>
+    <string name="address_type">સરનામાંનો પ્રકાર</string>
+    <string name="name">નામ</string>
+    <string name="add_address">સરનામું ઉમેરો</string>
+    <string name="otp_send_on">ઓટીપી મોકલો</string>
+    <string name="settings">સેટિંગ્સ</string>
+
+</resources>

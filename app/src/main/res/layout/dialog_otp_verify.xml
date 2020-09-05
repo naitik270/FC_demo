@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="#a78099">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_close" />
+
+    <TextView
+        android:id="@+id/tv_verify_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_close"
+        android:layout_centerHorizontal="true"
+        android:text="Verify"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_otp_verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_verify_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Please verify your number"
+        android:textColor="#e0e0e0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_otp_verify"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/pinView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:layout_below="@+id/tv_mobile"
+        android:layout_centerHorizontal="true"
+        android:digits="1234567890"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        app:pinLineColors="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/rl_resend"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/pinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/did_not_get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Didn't get the code?"
+            android:textColor="#e0e0e0" />
+
+        <TextView
+            android:id="@+id/txt_link_Resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_toRightOf="@+id/did_not_get"
+            android:text="RESEND"
+            android:visibility="gone"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_toRightOf="@+id/txt_link_Resend"
+            android:text="0"
+            android:visibility="gone"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_verify"
+        android:layout_below="@+id/rl_resend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_otp_button"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/btn_verify"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

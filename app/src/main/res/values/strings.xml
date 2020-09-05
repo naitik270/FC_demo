@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">fTouch</string>
+
+    <string name="text_home">Home</string>
+    <string name="text_welcome">Welcome</string>
+    <string name="text_order">Orders</string>
+    <string name="text_appointment">Appointment</string>
+    <string name="text_cart">Cart</string>
+    <string name="text_settings">Setting</string>
+
+    <string name="logout_message">Are you sure you want to logout?</string>
+
+    <!--    Complain Strings    -->
+    <string name="cmp_add_remark">Add Remark</string>
+    <string name="cmp_select_image">Select Image</string>
+    <string name="cmp_browse">Browse</string>
+    <string name="cmp_complain">Send complain</string>
+
+
+    <!--    Settings Strings    -->
+    <string name="setting_profile">Profile</string>
+    <string name="setting_profile_description">mange profile, name, email etc…</string>
+    <string name="setting_rate_app">Rate app</string>
+    <string name="setting_rate_app_description">rate us…</string>
+    <string name="setting_share_app">Share app…</string>
+    <string name="setting_share_app_description">Share app to other…</string>
+    <string name="setting_complain">Submit feedback / complain</string>
+    <string name="setting_complain_description">send us your suggestions and feedback…</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_language_description">english/hindi/gujarati etc…</string>
+    <string name="setting_logout">Logout</string>
+    <string name="setting_logout_description">application logout…</string>
+    <string name="setting_addresses">Addresses</string>
+    <string name="setting_addresses_description">manage delivery addresses…</string>
+    <string name="setting_Login">Login</string>
+    <string name="setting_Login_description"><![CDATA[manage profile, orders, appointments & more…]]></string>
+
+
+    <!--    Edit Image    -->
+    <string name="crp_image_select">Select Image</string>
+    <string name="crp_image">Crop Image</string>
+    <string name="crp_save_image">Save Image</string>
+    <string name="mobile_no">Mobile no.</string>
+
+
+    <string name="btn_continue">CONTINUE</string>
+    <string name="btn_skip">SKIP</string>
+    <string name="btn_verify">Verify</string>
+    <string name="btn_resend">RESEND</string>
+    <string name="save">Save</string>
+
+
+    <string name="addresses">Addresses</string>
+    <string name="appointment">Appointment</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="full_name">Full Name</string>
+    <string name="address_1">Address line 1</string>
+    <string name="address_2">Address line 2</string>
+    <string name="land_mark">Land Mark</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="pin_code">Pin code</string>
+    <string name="person_name">Person Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email</string>
+    <string name="verified">Verified</string>
+    <string name="verify">Verify</string>
+    <string name="select_country">SELECT COUNTRY</string>
+    <string name="select_state">Select State</string>
+    <string name="select_city">SELECT CITY</string>
+    <string name="cb_default">Make this your default address</string>
+    <string name="address_type">Address Type</string>
+    <string name="name">Name</string>
+    <string name="add_address">Add Address</string>
+    <string name="otp_send_on">OTP SEND ON</string>
+    <string name="settings">Settings</string>
+    <string name="new_appointment">New Appointment</string>
+    <string name="services">Services</string>
+    <string name="appointment_date">Appointment Date</string>
+    <string name="appointment_time">Appointment Time</string>
+    <string name="remark">Remark</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="gender">Gender</string>
+    <string name="birth_date">Birth date</string>
+    <string name="select_services">Select services</string>
+
+
+    <string name="shop_now">Shop Now!</string>
+    <string name="title_Merchant">Stores</string>
+
+    <string name="Rs">\u20B9 </string>
+    <string name="place_order">PLACE ORDER</string>
+    <string name="search_hint">Search</string>
+    <string name="no_result_found">Results not found</string>
+    <string name="close_app">Are you sure want to close this application?</string>
+    <string name="Confirmation">Confirmation?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+
+
+    <string name="no_service_found">NO SERVICE FOUND !</string>
+
+    <string name="place_address">Place Address</string>
+    <string name="address">SELECT DELIVERY ADDRESS</string>
+    <string name="comment">ORDER COMMENT</string>
+    <string name="payment">PAYMENT</string>
+    <string name="cancel_order">CANCEL ORDER</string>
+    <string name="payment_mode">PAYMENT MODE</string>
+    <string name="payment_invoice">INVOICE</string>
+    <string name="other">OTHER</string>
+
+    <string name="rs">\u20B9</string>
+    <string name="alert_permission">We need to store order information into your device. please allow permission to continue.</string>
+    <string name="alert_skip">Please login first.</string>
+    <string name="alert_login_appointment">please login and start booking your appointments!</string>
+    <string name="alert_place_order">Are you sure you want to place order?</string>
+    <string name="alert_cancel_order">Are you sure you want to cancel this order?</string>
+    <string name="alert_login_status">Please login to manage your favorites stores..</string>
+    <string name="alert_make_payment">Payment status reflect only after merchant verify, are you sure to update details?</string>
+    <string name="ok">ok</string>
+    <string name="send">Send</string>
+
+
+</resources>

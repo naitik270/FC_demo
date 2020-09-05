@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="10dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:paddingStart="5dp"
+                    android:tint="@color/black"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_merchant"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/mName"
+                    android:text="Nathani Software Pvt Ltd"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="5dp"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="RtlSymmetry" />
+
+            </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:id="@+id/main_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="35dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:tint="@color/btnColor"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_profile"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:textColor="@color/btnColor"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:text="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="35dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:tint="@color/btnColor"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_mobile"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_mobile"
+            android:textColor="@color/btnColor"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="35dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:tint="@color/btnColor"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_date"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_appointmentDate"
+            android:textSize="14sp"
+            android:textColor="@color/btnColor"
+            android:layout_marginStart="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_confirm_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="35dp"
+        android:orientation="horizontal"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:tint="@color/btnColor"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_date"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/txt_confirm_date"
+            android:textSize="14sp"
+            android:textColor="@color/link_clr"
+            android:layout_marginStart="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="35dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:tint="@color/btnColor"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_services"
+            tools:ignore="RtlSymmetry" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:measureAllChildren="false"
+            android:scrollbars="none">
+
+            <TextView
+                android:id="@+id/tv_Services"
+                android:textColor="@color/btnColor"
+                android:textSize="14sp"
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_appointment_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="35dp"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:tint="@color/btnColor"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_number"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_appointment_no"
+            android:textColor="@color/txtColor"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="CONFIRM"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:background="#388E3C"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+</LinearLayout>
+
+</ScrollView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
